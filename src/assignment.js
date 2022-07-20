@@ -41,6 +41,7 @@ const assignment = {};
           count++;
         }
       }
+      
       return count;
   }
   assignment.countEvenNumbers = countEvenNumbers;
@@ -57,7 +58,7 @@ const assignment = {};
  * See https://www.thoughtco.com/celcius-to-farenheit-formula-609227 for the conversion formula
  * 
  * @param {Array} arrayOfNumbers the array containing temperatures in Celsius to be converted
- * @returns Array the converted temperatures in Fahrenheit
+ * @returns Array the converted temperatures in Fahrenheit 
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
     return arrayOfNumbers;
